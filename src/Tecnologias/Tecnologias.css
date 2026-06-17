@@ -1,0 +1,43 @@
+.tecnologias {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.tecnologias h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.tecnologias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tecnologia-item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tecnologia:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.tecnologia-info {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.tecnologia-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+.tecnologia-info p {
+    opacity: 0.8;
+}
