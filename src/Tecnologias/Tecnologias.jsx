@@ -18,37 +18,30 @@ function Tecnologias() {
         { 
         name: "HTML",
         icon: <FaHtml5/>,
-        level: "Intermediário"
         }
         ,{
       name: "CSS",
       icon: <FaCss3Alt />,
-      level: "Intermediário",
     },
     {
       name: "JavaScript",
       icon: <FaJs />,
-      level: "Intermediário",
     },
     {
       name: "React",
       icon: <FaReact />,
-      level: "Básico",
     },
     {
       name: "Vite",
       icon: <SiVite />,
-      level: "Básico",
     },
     {
       name: "Git",
       icon: <FaGitAlt />,
-      level: "Básico",
     },
     {
       name: "GitHub",
-      icon: <FaGithub />,
-      level: "Básico",
+      icon: <FaGithub />
     },
         
     ];
