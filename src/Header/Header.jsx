@@ -4,7 +4,7 @@ function Header() {
     return (
         <header  id="home" className="header">
             <div className="header-content">
-                <h1> Olá, seja bem-vindo ao meu portfólio! </h1>
+                <h1> Olá, eu sou <span>Luis Maurício</span></h1>
 
                 <h2> Desenvolvedor Front-End</h2>
 
